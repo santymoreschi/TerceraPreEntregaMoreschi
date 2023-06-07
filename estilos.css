@@ -37,13 +37,14 @@ h1 {
     padding: 55px;
     color: white;
     background-color: black;
+    
 }
 
 /*menu*/
 nav{
     margin: 0px;
     background-color: black;
-    font-size: x-large;
+    font-size: large;
 }
 
 
@@ -55,13 +56,13 @@ nav{
     border: solid black;
     filter: invert(1);
     cursor: pointer;
+    margin: 0px;
 }
 nav ul li{
-    
     padding: 0%;
     text-decoration: none;
+    margin: 0rem 0.7rem;
 }
-
 
 
 /*imágenes*/

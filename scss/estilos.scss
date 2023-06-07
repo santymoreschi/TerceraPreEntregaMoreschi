@@ -45,25 +45,22 @@ nav {
     margin: 0px;
     background-color: black;
     font-size: x-large;
-    li {
-        padding: 0%;
-        text-decoration: none;
-        }
+        li {
+            padding: 0%;
+            text-decoration: none;
+            margin: 0rem 0.7rem;
+    }
+        /*menú-hamburguesa*/
+        .navbar-toogler {
+            width: auto;
+            height: auto;
+            background-color: black;
+            border: solid black;
+            filter: invert(1);
+            cursor: pointer;
+    }
+    
 }
-
-
-/*menú-hamburguesa*/
-.navbar-toogler {
-    width: auto;
-    height: auto;
-    background-color: black;
-    border: solid black;
-    filter: invert(1);
-    cursor: pointer;
-}
-
-
-
 
 
 /*imágenes*/
@@ -181,58 +178,49 @@ footer {
     position: absolute;
     width: 100%;
     margin-top: 0%;
+        /*boton-inicio*/
+        ul li {
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+        /*#everlasthaedoboxing*/
+        h4 {
+            text-align: center;
+            margin: 20px;
+            padding: 20px;
+            justify-content: space-around;
+        }
+        /*somos-deporte*/
+        h5 {
+            color: white;
+            text-align: center;
+            margin: 20px;
+            margin: 0.7rem 0.7rem;
+            font-size: 1em;
+        }
+        /*logos-redes-sociales*/
+        .grid-logos {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-around;
+            width: 80%;
+            margin: 0 auto;
+            padding: 2px;
+        }
+        .logo {
+            text-align: center;
+            line-height: 80px;
+        }
+        /*copyright*/
+        h6 {
+            text-align: center;
+            margin: 0px;
+            padding: 20px;
+            margin: 0.7rem 0.7rem;
+            font-size: 1em;
+            background-color: black;
+        }
 }
-
-/*boton-inicio*/
-ul li {
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-
-/*#everlasthaedoboxing*/
-h4 {
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
-    justify-content: space-around;
-}
-
-/*somos-deporte*/
-h5 {
-    color: white;
-    text-align: center;
-    margin: 20px;
-    margin: 0.7rem 0.7rem;
-    font-size: 1em;
-}
-
-/*logos-redes-sociales*/
-.grid-logos {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    width: 80%;
-    margin: 0 auto;
-    padding: 2px;
-
-}
-
-.logo {
-    text-align: center;
-    line-height: 80px;
-}
-
-/*copyright*/
-h6 {
-    text-align: center;
-    margin: 0px;
-    padding: 20px;
-    margin: 0.7rem 0.7rem;
-    font-size: 1em;
-    background-color: black;
-}
-
 
 
 /*Segunda-página-contacto*/
@@ -254,59 +242,49 @@ form {
     border: solid black;
     border-radius: 10px;
     margin: 10rem 0rem;
-}
-
-form label {
-    margin: 8px;
-    padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-}
-
-#iname {
-    margin: 3px;
-}
-
-#insurname {
-    margin: 3px;
-}
-
-#iemail {
-    margin: 4px;
-}
-
-iframe {
-    margin: 20px;
-}
+        label {
+            margin: 8px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            display: flex;
+        }
+        #iname {
+            margin: 3px;
+        }
+        #insurname {
+            margin: 3px;
+        }
+        #iemail {
+            margin: 4px;
+        }
+        iframe {
+            margin: 20px;
+        }
+} 
 
 
-/*iniciar-sesión*/
-.col-md-6 {
-    margin: 10%;
-}
-
-.col-12 {
-    width: auto;
-    margin: 10%;
-}
-
-.row g-3 {
-    margin: 10%;
-}
-
-.col-md-4 {
-    margin: 10%;
-}
-
-.col-md-2 {
-    margin: 10%;
-}
-
-
-.enlase {
+/*enlase*/
+.enlase{
     background-color: beige;
     background-color: beige;
     border: solid black;
     border-radius: 10px;
-    margin: 20%
+    margin: 20%;
+    /*iniciar-sesión*/
+        .col-md-6 {
+            margin: 10%;
+        }
+        .col-12 {
+            width: auto;
+            margin: 10%;
+        }
+        .row g-3 {
+            margin: 10%;
+        }
+        .col-md-4 {
+            margin: 10%;
+        }
+        .col-md-2 {
+            margin: 10%;
+        }
 }

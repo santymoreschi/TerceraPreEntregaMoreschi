@@ -42,21 +42,20 @@ nav {
   margin: 0px;
   background-color: black;
   font-size: x-large;
+  /*menú-hamburguesa*/
 }
-
-/*menú-hamburguesa*/
-.navbar-toogler {
+nav li {
+  padding: 0%;
+  text-decoration: none;
+  margin: 0rem 0.7rem;
+}
+nav .navbar-toogler {
   width: auto;
   height: auto;
   background-color: black;
   border: solid black;
   filter: invert(1);
   cursor: pointer;
-}
-
-nav ul li {
-  padding: 0%;
-  text-decoration: none;
 }
 
 /*imágenes*/
@@ -164,33 +163,30 @@ footer {
   position: absolute;
   width: 100%;
   margin-top: 0%;
+  /*boton-inicio*/
+  /*#everlasthaedoboxing*/
+  /*somos-deporte*/
+  /*logos-redes-sociales*/
+  /*copyright*/
 }
-
-/*boton-inicio*/
-ul li {
+footer ul li {
   text-transform: uppercase;
   text-decoration: none;
 }
-
-/*#everlasthaedoboxing*/
-h4 {
+footer h4 {
   text-align: center;
   margin: 20px;
   padding: 20px;
   justify-content: space-around;
 }
-
-/*somos-deporte*/
-h5 {
+footer h5 {
   color: white;
   text-align: center;
   margin: 20px;
   margin: 0.7rem 0.7rem;
   font-size: 1em;
 }
-
-/*logos-redes-sociales*/
-.grid-logos {
+footer .grid-logos {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-around;
@@ -198,14 +194,11 @@ h5 {
   margin: 0 auto;
   padding: 2px;
 }
-
-.logo {
+footer .logo {
   text-align: center;
   line-height: 80px;
 }
-
-/*copyright*/
-h6 {
+footer h6 {
   text-align: center;
   margin: 0px;
   padding: 20px;
@@ -232,58 +225,49 @@ form {
   border-radius: 10px;
   margin: 10rem 0rem;
 }
-
 form label {
   margin: 8px;
   padding: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
 }
-
-#iname {
+form #iname {
   margin: 3px;
 }
-
-#insurname {
+form #insurname {
   margin: 3px;
 }
-
-#iemail {
+form #iemail {
   margin: 4px;
 }
-
-iframe {
+form iframe {
   margin: 20px;
 }
 
-/*iniciar-sesión*/
-.col-md-6 {
-  margin: 10%;
-}
-
-.col-12 {
-  width: auto;
-  margin: 10%;
-}
-
-.row g-3 {
-  margin: 10%;
-}
-
-.col-md-4 {
-  margin: 10%;
-}
-
-.col-md-2 {
-  margin: 10%;
-}
-
+/*enlase*/
 .enlase {
   background-color: beige;
   background-color: beige;
   border: solid black;
   border-radius: 10px;
   margin: 20%;
+  /*iniciar-sesión*/
+}
+.enlase .col-md-6 {
+  margin: 10%;
+}
+.enlase .col-12 {
+  width: auto;
+  margin: 10%;
+}
+.enlase .row g-3 {
+  margin: 10%;
+}
+.enlase .col-md-4 {
+  margin: 10%;
+}
+.enlase .col-md-2 {
+  margin: 10%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
