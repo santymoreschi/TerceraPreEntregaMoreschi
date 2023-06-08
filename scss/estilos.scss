@@ -163,9 +163,13 @@ button {
     padding: 30px;
     display: flex;
     justify-content: space-around;
-
 }
 
+.flex-revendedores {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
 
 /*footer*/
 footer {
@@ -287,4 +291,11 @@ form {
         .col-md-2 {
             margin: 10%;
         }
+}
+
+
+/*condiciones-de-servicio*/
+.condiciones {
+    width: 600px;
+    margin: auto;
 }
