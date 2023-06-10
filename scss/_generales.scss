@@ -1,0 +1,92 @@
+
+//generales
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto mono', monospace;
+}
+
+/*body*/
+body {
+    background-color: white;
+    margin: 0%;
+    height: .100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    min-width: 100vh;
+}
+
+
+/*header*/
+header {
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+}
+
+
+/*título*/
+h1 {
+    margin: 0px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    padding: 55px;
+    color: white;
+    background-color: black;
+}
+
+/*sub-menu*/
+h2 {
+    margin: 40px;
+    padding: 70px;
+    text-align: center;
+    color: black;
+    padding: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*lleva-tu-gimnasio-al-limite*/
+h3 {
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+/*párrafos*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0.7rem 0.7rem;
+    font-size: 3em;
+    text-align: justify;
+    margin: 50px;
+    padding: 30px;
+}
+
+/*imágenes*/
+img {
+    max-width: 100%;
+}
+
+/*grid-layout*/
+.grid-layout {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: black;
+    max-height: 100%;
+    text-align: center;
+    line-height: 150px;
+    width: 100%;
+}

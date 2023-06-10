@@ -1,0 +1,63 @@
+//footer
+
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    line-height: 40px;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+
+    /*boton-inicio*/
+    ul li {
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+    /*#everlasthaedoboxing*/
+    h4 {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        justify-content: space-around;
+    }
+
+    /*somos-deporte*/
+    h5 {
+        color: white;
+        text-align: center;
+        margin: 20px;
+        margin: 0.7rem 0.7rem;
+        font-size: 1em;
+    }
+
+    /*logos-redes-sociales*/
+    .grid-logos {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto;
+        padding: 2px;
+    }
+
+    .logo {
+        text-align: center;
+        line-height: 80px;
+    }
+
+    /*copyright*/
+    h6 {
+        text-align: center;
+        margin: 0px;
+        padding: 20px;
+        margin: 0.7rem 0.7rem;
+        font-size: 1em;
+        background-color: black;
+    }
+}

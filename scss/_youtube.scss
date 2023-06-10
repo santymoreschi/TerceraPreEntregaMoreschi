@@ -1,0 +1,15 @@
+//youtube
+
+
+/*video-segundo-round-y-ganador-flex*/
+iframe {
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: 95%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: solid black;
+}

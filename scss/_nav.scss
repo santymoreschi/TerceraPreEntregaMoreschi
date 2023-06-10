@@ -1,0 +1,27 @@
+//menu de navegacion
+
+
+/*menu*/
+nav {
+    margin: 0px;
+    background-color: black;
+    font-size: large;
+
+    li {
+        padding: 0%;
+        text-decoration: none;
+        margin: 0rem 0.7rem;
+    }
+
+    /*menú-hamburguesa*/
+    .navbar-toogler {
+        width: auto;
+        height: auto;
+        background-color: black;
+        border: solid black;
+        filter: invert(1);
+        cursor: pointer;
+        margin: 0px;
+    }
+
+}

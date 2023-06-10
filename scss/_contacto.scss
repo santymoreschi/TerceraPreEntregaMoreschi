@@ -1,0 +1,73 @@
+//contacto
+
+/*Segunda-página-contacto*/
+#contact {
+    margin: 0px;
+    padding: 17px;
+    line-height: 20px;
+    margin: 0.7rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+}
+
+/*from*/
+form {
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10rem 0rem;
+
+    label {
+        margin: 8px;
+        padding: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+    }
+
+    #iname {
+        margin: 3px;
+    }
+
+    #insurname {
+        margin: 3px;
+    }
+
+    #iemail {
+        margin: 4px;
+    }
+
+    iframe {
+        margin: 20px;
+    }
+}
+
+/*enlase*/
+.enlase {
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    margin: 20%;
+
+    /*iniciar-sesión*/
+    .col-md-6 {
+        margin: 10%;
+    }
+
+    .col-12 {
+        width: auto;
+        margin: 10%;
+    }
+
+    .row g-3 {
+        margin: 10%;
+    }
+
+    .col-md-4 {
+        margin: 10%;
+    }
+
+    .col-md-2 {
+        margin: 10%;
+    }
+}

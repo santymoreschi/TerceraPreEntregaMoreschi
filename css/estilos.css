@@ -37,25 +37,35 @@ h1 {
   background-color: black;
 }
 
-/*menu*/
-nav {
-  margin: 0px;
-  background-color: black;
-  font-size: x-large;
-  /*menú-hamburguesa*/
+/*sub-menu*/
+h2 {
+  margin: 40px;
+  padding: 70px;
+  text-align: center;
+  color: black;
+  padding: auto;
+  flex-direction: row;
+  justify-content: center;
 }
-nav li {
-  padding: 0%;
-  text-decoration: none;
-  margin: 0rem 0.7rem;
+
+/*lleva-tu-gimnasio-al-limite*/
+h3 {
+  margin: 30px;
+  padding: 60px;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  flex-direction: row;
 }
-nav .navbar-toogler {
-  width: auto;
-  height: auto;
-  background-color: black;
-  border: solid black;
-  filter: invert(1);
-  cursor: pointer;
+
+/*párrafos*/
+p {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0.7rem 0.7rem;
+  font-size: 3em;
+  text-align: justify;
+  margin: 50px;
+  padding: 30px;
 }
 
 /*imágenes*/
@@ -72,84 +82,6 @@ img {
   text-align: center;
   line-height: 150px;
   width: 100%;
-}
-
-/*párrafos*/
-p {
-  font-family: "Times New Roman", Times, serif;
-  margin: 0.7rem 0.7rem;
-  font-size: 3em;
-  text-align: justify;
-  margin: 50px;
-  padding: 30px;
-}
-
-/*flex-container*/
-.flex-container {
-  display: flex;
-  padding: 30px;
-  flex-direction: row;
-  margin: 0% auto;
-  width: auto;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  border: solid black;
-  background-color: wheat;
-}
-
-/*video-segundo-round-y-ganador-flex*/
-iframe {
-  display: flex;
-  padding: 0px;
-  flex-direction: row;
-  margin: 0% auto;
-  width: 95%;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  border: solid black;
-}
-
-/*sub-menu*/
-h2 {
-  margin: 40px;
-  padding: 70px;
-  text-align: center;
-  color: black;
-  padding: auto;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/*contenido*/
-#flex-content {
-  padding: 90px;
-  display: flex;
-  margin: 50px;
-  justify-content: space-around;
-}
-
-/*lleva-tu-gimnasio-al-limite*/
-h3 {
-  margin: 30px;
-  padding: 60px;
-  text-align: center;
-  padding: 20px;
-  justify-content: center;
-  flex-direction: row;
-}
-
-/*empecemos*/
-button {
-  width: 100%;
-}
-
-/*ubicaciones*/
-.flex-ubicaciones {
-  padding: 30px;
-  display: flex;
-  justify-content: space-around;
 }
 
 /*footer*/
@@ -207,6 +139,73 @@ footer h6 {
   background-color: black;
 }
 
+/*menu*/
+nav {
+  margin: 0px;
+  background-color: black;
+  font-size: large;
+  /*menú-hamburguesa*/
+}
+nav li {
+  padding: 0%;
+  text-decoration: none;
+  margin: 0rem 0.7rem;
+}
+nav .navbar-toogler {
+  width: auto;
+  height: auto;
+  background-color: black;
+  border: solid black;
+  filter: invert(1);
+  cursor: pointer;
+  margin: 0px;
+}
+
+/*empecemos*/
+button {
+  width: 100%;
+}
+
+/*condiciones-de-servicio*/
+.condiciones {
+  width: 600px;
+  margin: auto;
+}
+
+/*video-segundo-round-y-ganador-flex*/
+iframe {
+  display: flex;
+  padding: 0px;
+  flex-direction: row;
+  margin: 0% auto;
+  width: 95%;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: solid black;
+}
+
+/*ubicaciones*/
+.flex-ubicaciones {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-revendedores {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*contenido*/
+#flex-content {
+  padding: 90px;
+  display: flex;
+  margin: 50px;
+  justify-content: space-around;
+}
+
 /*Segunda-página-contacto*/
 #contact {
   margin: 0px;
@@ -247,7 +246,6 @@ form iframe {
 /*enlase*/
 .enlase {
   background-color: beige;
-  background-color: beige;
   border: solid black;
   border-radius: 10px;
   margin: 20%;
@@ -268,6 +266,20 @@ form iframe {
 }
 .enlase .col-md-2 {
   margin: 10%;
+}
+
+/*flex-container*/
+.flex-container {
+  display: flex;
+  padding: 30px;
+  flex-direction: row;
+  margin: 0% auto;
+  width: auto;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: solid black;
+  background-color: wheat;
 }
 
 /*# sourceMappingURL=estilos.css.map */

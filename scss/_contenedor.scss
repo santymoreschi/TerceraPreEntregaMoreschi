@@ -1,0 +1,15 @@
+//Contenedor
+
+/*flex-container*/
+.flex-container {
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: auto;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: solid black;
+    background-color: wheat;
+}
