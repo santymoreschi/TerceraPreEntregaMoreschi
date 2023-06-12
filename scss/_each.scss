@@ -3,9 +3,7 @@ $ruta: "./img/";
 @each $grid-logos in logo1, logo2, logo3{
     li.#{$grid-logos} {
             background:url(../img/logotwitter2.jpg/../logofacebook2.png/../fotoig2.png)
-
-
-
+            
 }
 }
 
