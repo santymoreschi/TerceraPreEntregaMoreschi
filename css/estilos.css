@@ -1,8 +1,18 @@
-@charset "UTF-8";
-* {
-  margin: 0px;
-  padding: 0px;
-  font-family: "roboto mono", monospace;
+/* Error: Undefined variable.
+ *    ,
+ * 21 | @if $vista == desktop{
+ *    |     ^^^^^^
+ *    '
+ *   scss\_generales.scss 21:5  @import
+ *   scss\estilos.scss 2:9      root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono","Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
 }
 
 /*body*/
@@ -25,6 +35,7 @@ header {
   padding: 50px;
 }
 
+
 /*título*/
 h1 {
   margin: 0px;
@@ -32,10 +43,11 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   width: 100%;
-  padding: 55px;
+  padding: 100px;
   color: white;
   background-color: black;
 }
+
 
 /*sub-menu*/
 h2 {
@@ -71,18 +83,40 @@ p {
 /*imágenes*/
 img {
   max-width: 100%;
+  transition: all 300ms;
+  position: relative;
+
 }
 
 /*grid-layout*/
 .grid-layout {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-gap: 1%;
+  grid-template-columns: repeat(5, 1fr);
+  line-height: 550px;
   background-color: black;
+  border: solid black;
   max-height: 100%;
-  text-align: center;
-  line-height: 150px;
   width: 100%;
+  height: 100%;
+  transition: all 300ms;
 }
+.grid-layout .caja1:hover {
+  transform: scale(1.1);
+}
+.grid-layout .caja2:hover {
+  transform: scale(1.1);
+}
+.grid-layout .caja3:hover {
+  transform: scale(1.1);
+}
+.grid-layout .caja4:hover {
+  transform: scale(1.1);
+}
+.grid-layout .caja5:hover {
+  transform: scale(1.1);
+}
+
 
 /*footer*/
 footer {
@@ -105,6 +139,7 @@ footer ul li {
   text-transform: uppercase;
   text-decoration: none;
 }
+
 footer h4 {
   text-align: center;
   margin: 20px;
@@ -125,6 +160,10 @@ footer .grid-logos {
   width: 80%;
   margin: 0 auto;
   padding: 2px;
+  transition: all 300ms;
+}
+footer .grid-logos :hover{
+  transform: scale(1.15);
 }
 footer .logo {
   text-align: center;
@@ -166,12 +205,6 @@ button {
   width: 100%;
 }
 
-/*condiciones-de-servicio*/
-.condiciones {
-  width: 600px;
-  margin: auto;
-}
-
 /*video-segundo-round-y-ganador-flex*/
 iframe {
   display: flex;
@@ -203,8 +236,13 @@ iframe {
   padding: 90px;
   display: flex;
   margin: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
+  grid-template-columns: repeat(5, 1fr);
 }
+#flex-content :hover {
+  transform: scale(1.15);
+}
+
 
 /*Segunda-página-contacto*/
 #contact {
@@ -281,5 +319,16 @@ form iframe {
   border: solid black;
   background-color: wheat;
 }
+
+
+
+/*condiciones-de-servicio*/
+.condiciones {
+  width: 600px;
+  margin: auto;
+}
+
+
+
 
 /*# sourceMappingURL=estilos.css.map */

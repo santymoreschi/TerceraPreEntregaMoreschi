@@ -1,0 +1,35 @@
+//imagenes del principio con grid
+
+/*grid-layout*/
+.grid-layout {
+    display: grid;
+    grid-gap: 1%;
+    grid-template-columns: repeat(5, 1fr);
+    line-height: 550px;
+    background-color: $color-secundario;
+    border: solid $color-secundario;
+    max-height: 550px;
+    width: 100%;
+    height: 100%;
+    transition: all 300ms;
+    .caja1:hover {
+        transform: scale(1.15);
+    }
+    .caja2:hover {
+        transform: scale(1.15);
+    }
+    .caja3:hover {
+        transform: scale(0.5);
+    }
+    .caja4:hover {
+        transform: scale(1.15);
+    }
+    .caja5:hover {
+        transform: scale(1.15);
+    }
+}
+
+//grid-template-columns: 20% 20% 20% 20% 20%; 
+//grid-template-columns: repeat(5, 1fr);
+//  text-align: center;    line-height: 150px;
+

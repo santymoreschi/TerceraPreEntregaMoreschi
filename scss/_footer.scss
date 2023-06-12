@@ -3,8 +3,8 @@
 
 /*footer*/
 footer {
-    background-color: black;
-    color: white;
+    background-color: $color-secundario;
+    color: $color-principal;
     margin: 0px;
     text-align: center;
     line-height: 40px;
@@ -44,6 +44,11 @@ footer {
         width: 80%;
         margin: 0 auto;
         padding: 2px;
+        transition: all 300ms;
+    }
+    
+    .grid-logos :hover {
+        transform: scale(1.15);
     }
 
     .logo {
@@ -58,6 +63,6 @@ footer {
         padding: 20px;
         margin: 0.7rem 0.7rem;
         font-size: 1em;
-        background-color: black;
+        background-color: $color-secundario;
     }
 }

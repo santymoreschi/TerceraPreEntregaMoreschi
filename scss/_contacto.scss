@@ -13,8 +13,8 @@
 
 /*from*/
 form {
-    background-color: beige;
-    border: solid black;
+    background-color:$fondo;
+    border: solid $color-secundario;
     border-radius: 10px;
     margin: 10rem 0rem;
 
@@ -44,8 +44,8 @@ form {
 
 /*enlase*/
 .enlase {
-    background-color: beige;
-    border: solid black;
+    background-color: $fondo;
+    border: solid $color-secundario;
     border-radius: 10px;
     margin: 20%;
 

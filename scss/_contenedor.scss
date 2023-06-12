@@ -10,6 +10,6 @@
     flex-wrap: wrap;
     flex-flow: row wrap;
     justify-content: space-around;
-    border: solid black;
-    background-color: wheat;
+    border: solid $color-secundario;
+    background-color: $container;
 }
