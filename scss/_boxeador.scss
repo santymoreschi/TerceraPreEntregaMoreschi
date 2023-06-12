@@ -1,0 +1,10 @@
+//imagen y animación del boxeador
+
+.boxeo1 {
+    transition: all 300ms;
+    padding: 20px;
+    min-width: 0%;
+    .boxeo1 :hover {
+    transform: scale(1.1);
+    }
+}

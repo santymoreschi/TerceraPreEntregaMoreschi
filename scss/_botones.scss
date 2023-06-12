@@ -1,12 +1,16 @@
 //botones
 
-/*empecemos*/
-button {
-    width: 100%;
-}
+
+
+
 
 /*condiciones-de-servicio*/
 .condiciones {
     width: 600px;
     margin: auto;
+    background-color: map-get($botones, boton-secundario);
+    /*empecemos*/
+    button {
+    width: 100%;
+    }
 }
