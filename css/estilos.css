@@ -33,6 +33,7 @@ header {
   width: 100%;
   height: 300px;
   padding: 50px;
+  text-align: center;
 }
 
 
@@ -75,10 +76,10 @@ h3 {
 p {
   font-family: "Times New Roman", Times, serif;
   margin: 0.7rem 0.7rem;
-  font-size: 3em;
+  font-size: 2em;
   text-align: justify;
   margin: 50px;
-  padding: 30px;
+  padding: 3%;
 }
 
 /*imágenes*/
@@ -99,22 +100,28 @@ img {
   max-height: 100%;
   width: 100%;
   height: 100%;
-  transition: all 300ms;
+  padding: 40px;
+  transition:1s;
 }
 .grid-layout .caja1:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 .grid-layout .caja2:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 .grid-layout .caja3:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 .grid-layout .caja4:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 .grid-layout .caja5:hover {
   transform: scale(1.1);
+  transition: 0.6s;
 }
 
 
@@ -189,6 +196,7 @@ nav li {
   padding: 0%;
   text-decoration: none;
   margin: 0rem 0.7rem;
+  
 }
 nav .navbar-toogler {
   width: auto;
@@ -198,6 +206,7 @@ nav .navbar-toogler {
   filter: invert(1);
   cursor: pointer;
   margin: 0px;
+  
 }
 
 /*empecemos*/
@@ -309,12 +318,13 @@ form iframe {
 /*flex-container*/
 .flex-container {
   display: flex;
-  padding: 30px;
+  padding: 0px;
   flex-direction: row;
-  margin: 0% auto;
+  margin: 10%;
   width: auto;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
+  padding: 30px;
+  /*flex-wrap: wrap;
+  flex-flow: row wrap;*/
   justify-content: space-around;
   border: solid black;
   background-color: wheat;
