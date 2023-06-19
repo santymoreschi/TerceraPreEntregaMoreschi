@@ -34,8 +34,14 @@ header {
   height: 300px;
   padding: 50px;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-
+header :hover{
+  transition: all;
+  transform: scale(1.1);
+  transition: 0.6s;
+}
 
 /*título*/
 h1 {
@@ -199,14 +205,16 @@ nav li {
   
 }
 nav .navbar-toogler {
-  width: auto;
-  height: auto;
+  width: 10%;
   background-color: black;
   border: solid black;
-  filter: invert(1);
+  filter: invert(0);
   cursor: pointer;
   margin: 0px;
-  
+  text-align: center;
+}
+nav .navbar-toggler-icon{
+  float: left;
 }
 
 /*empecemos*/
